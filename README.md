@@ -15,13 +15,3 @@ You can start your Pokéchu adventure by doing the p!start command and picking y
 <B>How to Find Help?</B>
 
 To get help, you can simply do the p!help command and you will get all the commands in your dm.
-
-
-## [Invite](https://top.gg/bot/731192650794926191)
-
-
-![Discord Bots](https://top.gg/api/widget/731192650794926191.svg)
-
-## [Privacy Policy](https://pokecord.medium.com/pokechu-privacy-policy-326d71fc5f75)
-
-- The bot follows some [important privacy policies](https://pokecord.medium.com/pokechu-privacy-policy-326d71fc5f75) whose violation is not entertained!
