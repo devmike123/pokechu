@@ -1,0 +1,32 @@
+{
+  "name": "pokechu",
+  "version": "3.0.0",
+  "description": "This is a Pokemon bot",
+  "author": "Aniket Bhattacharjee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pokechu",
+    "discord",
+    "pokemon",
+    "pokecord"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "aoi.js": "^5.1.2",
+    "dbdjs.db": "^2.0.2",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "node": "^16.6.1"
+  },
+  "bugs": {
+    "url": "https://github.com/DevMike123/pokechu/issues"
+  },
+  "homepage": "https://github.com/DevMike123/pokechu#readme"
+}
