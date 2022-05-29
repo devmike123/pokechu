@@ -1,6 +1,8 @@
 ### Pokechu
 Pokéchu is a super detailed Pokémon Discord Bot that allows you to collect, level up, and know information about all the Pokemon!
 
+<img src="./.github/pokechu.jpg">
+
 ## Description
 <B>What is the Bot About?</B>
 
