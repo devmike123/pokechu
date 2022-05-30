@@ -22,17 +22,4 @@ module.exports = [{
 **Legendary**
 • 2000 credits]
 $addField[1;Claim Rewards;Use \`$getServerVar[prefix]claim\` to claim rewards!]
-  `} , {
-    name:"claim",
-  $if:"v4",
-    code:`$if[$httpRequest[https://normal-api.ml/topgg/hasvoted?bot=731192650794926191&user=$authorID&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczMTE5MjY1MDc5NDkyNjE5MSIsImJvdCI6dHJ1ZSwiaWF0IjoxNjI5MTMzNjQ0fQ.SiFT8WSX8Zs12fTweMrHPh-FqzTTkLIbiBOGkXMbhac;GET;;voted]==true]
-    Thanks <@$authorID> for voting! You got $random[200;1000] credits and $random[0;1] eggs from voting!
-    $setGlobalUserVar[money;$sum[$getGlobalUserVar[money];$random[200;1000]]]
-    $setGlobalUserVar[egg;$sum[$getGlobalUserVar[egg];$random[0;1]]]
-    $cooldown[12h;You need to wait %time% to vote us again and claim another reward!]
-    
-    $elseif[$httpRequest[https://normal-api.ml/topgg/hasvoted?bot=731192650794926191&user=$authorID&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjczMTE5MjY1MDc5NDkyNjE5MSIsImJvdCI6dHJ1ZSwiaWF0IjoxNjI5MTMzNjQ0fQ.SiFT8WSX8Zs12fTweMrHPh-FqzTTkLIbiBOGkXMbhac;GET;;voted]==false]
-    You need to vote for the bot to claim this! You can vote from here! https://top.gg/bot/731192650794926191/vote
-    $endelseif
-    $endif`
-  }]
+  `}]
